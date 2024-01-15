@@ -1,0 +1,11 @@
+"OS",PRETTY_NAME="Ubuntu 22.04.2 LTS"
+"Hostname",ZAPIN147142-034
+"Domain",japan.astellas.net
+"IP",172.25.71.46 
+"MAC",00:15:5d:15:99:ef
+"Deep Security",
+"Crowdstrike",
+"Hardware",# dmidecode 3.3
+Scanning /dev/mem for entry point.
+# No SMBIOS nor DMI entry point found, sorry.
+"Language",C.UTF-8
