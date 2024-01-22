@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USER = $1
+USER=$1
 if [[ -z "$USER" ]]; then
         echo "Usage: $0 need username"
         exit 1
