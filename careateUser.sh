@@ -24,10 +24,10 @@ if [ -f /etc/debian_version ]; then
 elif [ -f /etc/redhat-release ]; then
     
     #add user and add to wheel group
-    sudo adduser $USER_NAME
-    sudo passwd $USER_NAME    
+    sudo adduser $USER
+    sudo passwd $USER    
 
-    sudo usermod -aG wheel $USER_NAME
+    sudo usermod -aG wheel $USER
 
     #check if user is added to wheel group
     RESULT=$(cat /etc/group | grep wheel)
