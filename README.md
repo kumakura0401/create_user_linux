@@ -6,7 +6,7 @@
 Ubuntu/Debian,CentOS/REHLに対応（systemdのみ）
 
 ```
-source createUser.sh ユーザ名 パスワード
+source createUser.sh ユーザ名
 ```
 で実行可能。
 
