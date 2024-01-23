@@ -45,7 +45,7 @@ fi
 
 touch $HOSTNAME.csv
 
-cat<<EOF>$HOSTNAME.csvls
+cat<<EOF>$HOSTNAME.csv
 "OS",$OS
 "Hostname",$HOSTNAME
 "Domain",$domain
